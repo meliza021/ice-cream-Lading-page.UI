@@ -81,6 +81,7 @@ main .section_product{
     grid-area: product;
     position: relative;
     overflow: hidden;
+    height: 800px;
 }
 
 main .section_product article{
@@ -92,6 +93,7 @@ main .section_product article{
     align-items: center;
     color: var(--color-1);
     padding: 10px;
+    height: px;
 }
 
 main .section_product article p:nth-child(1){   
@@ -120,20 +122,21 @@ main .section_product > img:nth-child(2){
     bottom: 0;
     left: -140px;
     transform: rotate(32.69deg);
-    z-index: -1;
+    z-index: 1;
 }
 
 main .section_product > img:nth-child(3){    
     bottom: -100px;
     left: 15px;
     transform: rotate(57.18deg); 
+    z-index: 1;
 }
 
 main .section_product > img:nth-child(4){    
     bottom: -235px;
     left: 10px;
     transform: rotate(85.74deg);
-    z-index: -1;
+    z-index: 2;
 }
 
 main .section_main_content{
@@ -177,9 +180,9 @@ main .section_main_content a{
     grid-area: content;
     position: absolute;
     top: 486px;
-    right: 100px;
-    background-color: var(--color-3);
-    color: var(--color-1);
+    right: 25px;
+    background-color: #FF899C;
+    color: #FFFFFF;
     font-family: "Inder-Regular";
     font-size: 24px;
     padding: 19px 34px;
@@ -187,5 +190,5 @@ main .section_main_content a{
     text-decoration: none;
 } 
 .section_product{
-    top: 300px;
+    /*top: 250px*/;
 }
