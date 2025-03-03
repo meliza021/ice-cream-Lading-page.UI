@@ -93,7 +93,6 @@ main .section_product article{
     align-items: center;
     color: var(--color-1);
     padding: 10px;
-    height: px;
 }
 
 main .section_product article p:nth-child(1){   
@@ -189,6 +188,3 @@ main .section_main_content a{
     border-radius: 10px;
     text-decoration: none;
 } 
-.section_product{
-    /*top: 250px*/;
-}
